@@ -8,7 +8,7 @@
 
 (setq inferior-lisp-program
 "/usr/bin/clisp")
-(add-to-list 'load-path "~/.emacs.d/elpa/slime-20150102.1206")
+(add-to-list 'load-path "~/.emacs.d/elpa/slime-20180218.1356")
 (require 'slime)
 (require 'slime-autoloads)
 ;; Also setup the slime-fancy contrib
@@ -70,4 +70,5 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+
 
