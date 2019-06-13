@@ -7,8 +7,8 @@
 (package-initialize) ;; You might already have this line
 
 (setq inferior-lisp-program
-"/usr/bin/clisp")
-(add-to-list 'load-path "~/.emacs.d/elpa/slime-20180218.1356")
+"/Users/yohanlee/Bin/ccl")
+(add-to-list 'load-path "~/.emacs.d/elpa/slime-20180413.1720")
 (require 'slime)
 (require 'slime-autoloads)
 ;; Also setup the slime-fancy contrib
