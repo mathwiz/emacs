@@ -1,4 +1,6 @@
 ;; Customizations relating to editing a buffer.
+(setq column-number-mode t)
+
 
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand

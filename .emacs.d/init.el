@@ -7,14 +7,14 @@
 (package-initialize) ;; You might already have this line
 
 (setq inferior-lisp-program
-"/usr/local/bin/clisp")
-(add-to-list 'load-path "~/.emacs.d/elpa/slime-20180413.1720")
+"/usr/local/bin/sbcl")
 (require 'slime)
 (require 'slime-autoloads)
 ;; Also setup the slime-fancy contrib
 (add-to-list 'slime-contribs 'slime-fancy)
 (slime-setup)
 (add-to-list 'auto-mode-alist '("\\.cl\\'" . slime-mode))
+(add-to-list 'auto-mode-alist '("\\.gst\\'" . smalltalk-mode))
 
 ;; #########################################################
 ;; Clojure customizations
@@ -48,7 +48,7 @@
 
 ;; Sets up exec-path-from-shell so that Emacs will use the correct
 ;; environment variables
-(load "shell-integration.el")
+;(load "shell-integration.el")
 
 ;; These customizations make it easier for you to navigate files,
 ;; switch buffers, and choose options from the minibuffer.
@@ -56,7 +56,7 @@
 
 ;; These customizations change the way emacs looks and disable/enable
 ;; some user interface elements
-(load "ui.el")
+;(load "ui.el")
 
 ;; These customizations make editing a bit nicer.
 (load "editing.el")
@@ -68,7 +68,23 @@
 (load "elisp-editing.el")
 
 ;; Langauage-specific
-(load "setup-clojure.el")
-(load "setup-js.el")
-(load "setup-languages.el")
+;(load "setup-clojure.el")
+;(load "setup-js.el")
+;(load "setup-languages.el")
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(geiser-chez-binary "chez")
+ '(geiser-racket-binary "racket")
+ '(package-selected-packages
+   (quote
+    (utop org format-all ghc-imported-from ghci-completion ghc gh geiser ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
