@@ -16,6 +16,19 @@
 (add-to-list 'auto-mode-alist '("\\.cl\\'" . slime-mode))
 (add-to-list 'auto-mode-alist '("\\.gst\\'" . smalltalk-mode))
 
+
+;; Octave customizations
+(setq auto-mode-alist
+      (cons '("\\.m$" . octave-mode) auto-mode-alist))
+      
+(add-hook 'octave-mode-hook
+          (lambda ()
+            (abbrev-mode 1)
+            (auto-fill-mode 1)
+            (if (eq window-system 'x)
+                (font-lock-mode 1))))
+
+
 ;; #########################################################
 ;; Clojure customizations
 ;; #########################################################
@@ -81,7 +94,7 @@
  '(geiser-racket-binary "racket")
  '(package-selected-packages
    (quote
-    (utop org format-all ghc-imported-from ghci-completion ghc gh geiser ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format))))
+    (haskell-mode org-books sml-mode utop org format-all ghc-imported-from ghci-completion ghc gh geiser ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
