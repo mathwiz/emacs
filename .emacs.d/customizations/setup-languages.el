@@ -1,10 +1,5 @@
-;;;;;;;;;;;
-;; Python
-;;;;;;;;;;;
-(when (executable-find "ipython3")
-  (setq python-shell-interpreter "ipython3"))
+(fset 'int-main
+   (kmacro-lambda-form [?i ?n ?t ?  ?m ?a ?i ?n ?\( ?v ?o ?i ?d ?\) ?  ?\{ ?\C-m ?\C-m ?\C-i ?r ?e ?t ?u ?r ?n ?  ?0 ?\; ?\C-m ?\} ?\C-p ?\C-p ?\C-i] 0 "%d"))
 
-;;;;;;;;;
-;; Perl
-;;;;;;;;;
-(defalias 'perl-mode 'cperl-mode)
+;; Make permanent
+(global-set-key "\C-x\C-km" 'int-main)
