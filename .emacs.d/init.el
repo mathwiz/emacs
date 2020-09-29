@@ -73,6 +73,7 @@
 
 ;; These customizations make editing a bit nicer.
 (load "editing.el")
+(load "general-macros.el")
 
 ;; Hard-to-categorize customizations
 (load "misc.el")
