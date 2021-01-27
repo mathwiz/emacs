@@ -6,6 +6,8 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
+
+;; Lisp
 (setq inferior-lisp-program
 "/usr/local/bin/sbcl")
 (require 'slime)
@@ -27,6 +29,12 @@
             (auto-fill-mode 1)
             (if (eq window-system 'x)
                 (font-lock-mode 1))))
+
+
+;; Turn on abbreviations
+(setq-default abbrev-mode t)
+(read-abbrev-file "~/.abbrev_defs")
+(setq save-abbrevs t)
 
 
 ;; #########################################################
