@@ -37,6 +37,12 @@
 (setq save-abbrevs t)
 
 
+;; Load functions
+(add-to-list 'load-path "~/.emacs.d/functions")
+(load "goto-percent")
+
+
+
 ;; #########################################################
 ;; Clojure customizations
 ;; #########################################################
