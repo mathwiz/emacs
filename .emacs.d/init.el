@@ -9,7 +9,7 @@
 
 ;; Lisp
 (setq inferior-lisp-program
-"/usr/local/bin/sbcl")
+"/usr/local/bin/clisp")
 (require 'slime)
 (require 'slime-autoloads)
 ;; Also setup the slime-fancy contrib
