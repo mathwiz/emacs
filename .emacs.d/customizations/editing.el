@@ -2,8 +2,8 @@
 (setq column-number-mode t)
 
 ;; Key binding for indentation of regions
-(global-set-key (kbd "C->") 'indent-rigidly-right)
-(global-set-key (kbd "C-<") 'indent-rigidly-left)
+(global-set-key (kbd "<right>") 'indent-rigidly-right)
+(global-set-key (kbd "<left>") 'indent-rigidly-left)
 
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
