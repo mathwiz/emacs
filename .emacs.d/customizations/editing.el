@@ -4,6 +4,8 @@
 ;; Key binding for indentation of regions
 (global-set-key (kbd "C-c ]") 'indent-rigidly-right)
 (global-set-key (kbd "C-c [") 'indent-rigidly-left)
+(global-set-key (kbd "M-}") 'indent-rigidly-right)
+(global-set-key (kbd "M-{") 'indent-rigidly-left)
 
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
