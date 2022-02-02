@@ -1,6 +1,9 @@
 (require 'package) ;; You might already have this line
+;; (add-to-list 'package-archives
+;;              '("melpa" . "http://melpa.org/packages/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
+             '("melpa-stable" . "https://stable.melpa.org/packages/"))
+
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
@@ -108,8 +111,7 @@
  '(geiser-chez-binary "chez")
  '(geiser-racket-binary "racket")
  '(package-selected-packages
-   (quote
-    (haskell-mode org-books sml-mode utop org format-all ghc-imported-from ghci-completion ghc gh geiser ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format))))
+   '(markdown-mode erlang elixir-mode scala-mode swift-mode julia-repl haskell-mode org-books sml-mode utop org format-all ghc-imported-from ghci-completion ghc gh geiser ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
