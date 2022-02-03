@@ -111,7 +111,7 @@
  '(geiser-chez-binary "chez")
  '(geiser-racket-binary "racket")
  '(package-selected-packages
-   '(markdown-mode erlang elixir-mode scala-mode swift-mode julia-repl haskell-mode org-books sml-mode utop org format-all ghc-imported-from ghci-completion ghc gh geiser ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format)))
+   '(bison-mode json-mode geiser-mit geiser-guile geiser-racket markdown-mode erlang elixir-mode scala-mode swift-mode julia-repl haskell-mode org-books sml-mode utop org format-all ghc-imported-from ghci-completion ghc gh geiser ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
