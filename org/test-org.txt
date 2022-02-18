@@ -1,34 +1,28 @@
 -*- mode: org; -*-
 
+#+title: My Org Practice
+#+author: The Yohan
+
 * Play with Org Mode
 
-** Text practice
+This is the introduction.
 
-total 161192
-lrwxr-xr-x  1 root   wheel        74 Dec  7 18:39 2to3- -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/2to3-2.7
-lrwxr-xr-x  1 root   wheel        74 Dec  7 18:39 2to3-2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/2to3-2.7
--rwxr-xr-x  1 root   wheel    236384 Dec  7 18:39 AssetCacheLocatorUtil
--rwxr-xr-x  1 root   wheel    294784 Dec  7 18:39 AssetCacheManagerUtil
--rwxr-xr-x  1 root   wheel    234112 Dec  7 18:39 AssetCacheTetheratorUtil
--rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 DeRez
--rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 GetFileInfo
--rwxr-xr-x  1 root   wheel    258592 Dec  7 18:39 IOAccelMemory
--rwxr-xr-x  1 root   wheel    114048 Dec  7 18:39 IOMFB_FDR_Loader
--rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 ResMerger
--rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 Rez
--rwxr-xr-x  1 root   wheel    168800 Dec  7 18:39 SafeEjectGPU
--rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 SetFile
--rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 SplitForks
--rwxr-xr-x  1 root   wheel    338048 Dec  7 18:39 a2p
--rwxr-xr-x  1 root   wheel    345184 Dec  7 18:39 aa
--rwxr-xr-x  1 root   wheel    167024 Dec  7 18:39 actool
--rwxr-xr-x  1 root   wheel    169824 Dec  7 18:39 addftinfo
--rwxr-xr-x  1 root   wheel    221104 Dec  7 18:39 aea
--rwxr-xr-x  1 root   wheel    204192 Dec  7 18:39 afclip
--rwxr-xr-x  1 root   wheel    360688 Dec  7 18:39 afconvert
+* Section 2
+
+** No keybindings for indent-rigidly
+
+    -rwxr-xr-x  1 root   wheel    167024 Dec  7 18:39 actool
+    -rwxr-xr-x  1 root   wheel    169824 Dec  7 18:39 addftinfo
+    -rwxr-xr-x  1 root   wheel    221104 Dec  7 18:39 aea
+    -rwxr-xr-x  1 root   wheel    204192 Dec  7 18:39 afclip
+    -rwxr-xr-x  1 root   wheel    360688 Dec  7 18:39 afconvert
+
 -rwxr-xr-x  1 root   wheel    168672 Dec  7 18:39 afhash
 -rwxr-xr-x  1 root   wheel    252848 Dec  7 18:39 afida
 -rwxr-xr-x  1 root   wheel    240128 Dec  7 18:39 afinfo
+
+** Don't indent these
+
 -rwxr-xr-x  1 root   wheel    207568 Dec  7 18:39 afktool
 -rwxr-xr-x  1 root   wheel    162321 Dec  7 18:39 afmtodit
 -rwxr-xr-x  1 root   wheel    188272 Dec  7 18:39 afplay
@@ -38,11 +32,18 @@ lrwxr-xr-x  1 root   wheel        74 Dec  7 18:39 2to3-2.7 -> ../../System/Libra
 -rwxr-xr-x  1 root   wheel       190 Dec  7 18:39 alias
 -rwxr-xr-x  1 root   wheel    171728 Dec  7 18:39 app-sso
 -rwxr-xr-x  1 root   wheel    201920 Dec  7 18:39 applesingle
+
+
+* Section 3
+
 -rwxr-xr-x  1 root   wheel    168432 Dec  7 18:39 appletviewer
 -rwxr-xr-x  1 root   wheel    151040 Dec  7 18:39 apply
 -r-xr-xr-x  1 root   wheel      2095 Dec  7 18:39 apropos
 -rwxr-xr-x  1 root   wheel    168432 Dec  7 18:39 apt
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 ar
+
+** Something more
+
 -rwxr-xr-x  1 root   wheel    153936 Dec  7 18:39 arch
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 as
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 asa
@@ -61,6 +62,9 @@ lrwxr-xr-x  1 root   wheel        18 Dec  7 18:39 auval -> /usr/bin/auvaltool
 -rwxr-xr-x  1 root   wheel    203248 Dec  7 18:39 avconvert
 -rwxr-xr-x  1 root   wheel    244736 Dec  7 18:39 avmediainfo
 -rwxr-xr-x  1 root   wheel    169856 Dec  7 18:39 avmetareadwrite
+
+*** A sub level
+
 -rwxr-xr-x  1 root   wheel    334944 Dec  7 18:39 awk
 -rwxr-xr-x  1 root   wheel    167248 Dec  7 18:39 banner
 -rwxr-xr-x  1 root   wheel    167680 Dec  7 18:39 base64
@@ -75,6 +79,9 @@ lrwxr-xr-x  1 root   wheel        18 Dec  7 18:39 auval -> /usr/bin/auvaltool
 -r-xr-xr-x  1 root   wheel      3941 Dec  7 18:39 binhex5.18.pl
 -r-xr-xr-x  1 root   wheel      3854 Dec  7 18:39 binhex5.30.pl
 -rwxr-xr-x  1 root   wheel    460912 Dec  7 18:39 bioutil
+
+*** Another sub
+
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 bison
 -rwxr-xr-x  1 root   wheel      1958 Dec  7 18:39 bitesize.d
 -rwxr-xr-x  1 root   wheel    442944 Dec  7 18:39 bputil
@@ -86,6 +93,10 @@ lrwxr-xr-x  1 root   wheel        18 Dec  7 18:39 auval -> /usr/bin/auvaltool
 -rwxr-xr-x  1 root   wheel    202032 Dec  7 18:39 bunzip2
 -rwxr-xr-x  1 root   wheel    202032 Dec  7 18:39 bzcat
 lrwxr-xr-x  1 root   wheel         6 Dec  7 18:39 bzcmp -> bzdiff
+
+
+** Second section
+
 -rwxr-xr-x  1 root   wheel      2121 Dec  7 18:39 bzdiff
 -rwxr-xr-x  1 root   wheel    202816 Dec  7 18:39 bzegrep
 -rwxr-xr-x  1 root   wheel    202816 Dec  7 18:39 bzfgrep
@@ -105,6 +116,12 @@ lrwxr-xr-x  1 root   wheel         6 Dec  7 18:39 bzless -> bzmore
 -r-xr-xr-x  1 root   wheel    135280 Dec  7 18:39 cancel
 -rwxr-xr-x  1 root   wheel    167248 Dec  7 18:39 cap_mkdb
 lrwxr-xr-x  1 root   wheel         3 Dec  7 18:39 captoinfo -> tic
+
+
+* Section 4
+
+** Heading 1
+
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 cc
 -rwxr-xr-x  1 root   wheel       190 Dec  7 18:39 cd
 -rwxr-xr-x  1 root   wheel    297904 Dec  7 18:39 certtool
@@ -117,6 +134,9 @@ lrwxr-xr-x  1 root   wheel         3 Dec  7 18:39 captoinfo -> tic
 -rwxr-xr-x  1 root   wheel    150688 Dec  7 18:39 cksum
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 clang
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 clang++
+
+** Heading 2
+
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 clangd
 -rwxr-xr-x  1 root   wheel    150080 Dec  7 18:39 clear
 -rwxr-xr-x  1 root   wheel    168752 Dec  7 18:39 cmp
@@ -132,6 +152,9 @@ lrwxr-xr-x  1 root   wheel         3 Dec  7 18:39 captoinfo -> tic
 -rwxr-xr-x  1 root   wheel    167232 Dec  7 18:39 comm
 -rwxr-xr-x  1 root   wheel       190 Dec  7 18:39 command
 -rwxr-xr-x  1 root   wheel    151536 Dec  7 18:39 compress
+
+** Heading 3
+
 -rwxr-xr-x  1 root   wheel    151712 Dec  7 18:39 compression_tool
 -rwxr-xr-x  1 root   wheel      7230 Dec  7 18:39 config_data
 -r-xr-xr-x  1 root   wheel      7142 Dec  7 18:39 config_data5.30
@@ -146,6 +169,11 @@ lrwxr-xr-x  1 root   wheel         3 Dec  7 18:39 captoinfo -> tic
 -rwxr-xr-x  1 root   wheel       545 Dec  7 18:39 cpanp-run-perl
 -rwxr-xr-x  1 root   wheel    192944 Dec  7 18:39 cpio
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 cpp
+
+* Section 5
+
+** Start with cpu
+
 -rwxr-xr-x  1 root   wheel      1402 Dec  7 18:39 cpu_profiler.d
 -rwxr-xr-x  1 root   wheel    150672 Dec  7 18:39 cpuctl
 -rwxr-xr-x  1 root   wheel      1540 Dec  7 18:39 cpuwalk.d
@@ -158,6 +186,9 @@ lrwxr-xr-x  1 root   wheel         3 Dec  7 18:39 captoinfo -> tic
 -rwxr-xr-x  1 root   wheel    151920 Dec  7 18:39 csplit
 -rwxr-xr-x  1 root   wheel    174064 Dec  7 18:39 csreq
 -rwxr-xr-x  1 root   wheel    380928 Dec  7 18:39 csrutil
+
+** Start with ctags
+
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 ctags
 -rwxr-xr-x  1 root   wheel    167088 Dec  7 18:39 ctf_insert
 -r-xr-xr-x  1 _uucp  wheel    359184 Dec  7 18:39 cu
@@ -205,6 +236,16 @@ lrwxr-xr-x  1 root   wheel        63 Dec  7 18:39 cvmkfile -> /System/Library/Fi
 -r-xr-xr-x  1 root   wheel    573856 Dec  7 18:39 demandoc
 -rwxr-xr-x  1 root   wheel    167024 Dec  7 18:39 desdp
 -rwxr-xr-x  1 root   wheel      2399 Dec  7 18:39 diagnose-fu
+
+
+* Section 6 has the rest!
+
+** Notes
+
+Why so many entries?
+
+** The rest of the listing
+
 -rwxr-xr-x  1 root   wheel    319376 Dec  7 18:39 diff
 -rwxr-xr-x  1 root   wheel    201984 Dec  7 18:39 diff3
 -rwxr-xr-x  1 root   wheel    202160 Dec  7 18:39 diffstat
