@@ -19,6 +19,8 @@
   :type 'string
   :group 'python)
 
+(setq python-indent-offset 2)
+
 
 ;; Lisp
 
