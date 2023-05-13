@@ -100,7 +100,7 @@
 (load "elisp-editing.el")
 
 ;; Langauage-specific
-;(load "setup-clojure.el")
+(load "setup-clojure.el")
 ;(load "setup-js.el")
 (load "setup-languages.el")
 
