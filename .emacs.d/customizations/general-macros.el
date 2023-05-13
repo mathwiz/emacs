@@ -13,4 +13,4 @@
 (fset 'copy-entire-line
    (kmacro-lambda-form [?\C-a ?\C-@ ?\C-n ?\C-\[ ?w ?\C-y ?\C-p] 0 "%d"))
 
-(global-set-key "\C-x\M-w" 'copy-entire-line)
+(global-set-key "\C-c\M-w" 'copy-entire-line)
