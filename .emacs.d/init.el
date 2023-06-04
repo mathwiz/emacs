@@ -38,7 +38,8 @@
 (setq-default abbrev-mode t)
 (read-abbrev-file "~/.abbrev_defs")
 (setq save-abbrevs t)
-
+;; use pabbrev too
+(setq-default pabbrev-mode t)
 
 ;; Load functions
 (add-to-list 'load-path "~/.emacs.d/functions")
@@ -110,9 +111,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(geiser-chez-binary "chez")
- '(geiser-racket-binary "racket")
+ '(geiser-racket-binary "~/Bin/racket")
  '(package-selected-packages
-   '(clojure-mode-extra-font-locking cider markdown-preview-mode kotlin-mode groovy-mode cobol-mode xml-format mips-mode clojure-mode function-args bison-mode json-mode markdown-mode erlang elixir-mode scala-mode swift-mode julia-repl haskell-mode org-books sml-mode utop org format-all ghc-imported-from ghci-completion ghc gh ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format)))
+   '(company-maxima slime-company use-package cape corfu-terminal corfu-prescient corfu pabbrev sbt-mode rainbow-delimiters geiser-chez geiser-racket geiser racket-mode clojure-mode-extra-font-locking cider markdown-preview-mode kotlin-mode groovy-mode cobol-mode xml-format mips-mode clojure-mode function-args bison-mode json-mode markdown-mode erlang elixir-mode scala-mode swift-mode julia-repl haskell-mode org-books sml-mode utop org format-all ghc-imported-from ghci-completion ghc gh ediprolog smalltalk-mode dante ess tuareg caml smex slime projectile paredit elisp-format))
+ '(warning-suppress-log-types '(((python python-shell-completion-native-turn-on-maybe)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
