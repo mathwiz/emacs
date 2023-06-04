@@ -10,18 +10,6 @@
 (package-initialize) ;; You might already have this line
 
 
-;; Lisp
-(setq inferior-lisp-program
-"/usr/local/bin/clisp")
-(require 'slime)
-(require 'slime-autoloads)
-;; Also setup the slime-fancy contrib
-(add-to-list 'slime-contribs 'slime-fancy)
-(slime-setup)
-(add-to-list 'auto-mode-alist '("\\.cl\\'" . slime-mode))
-(add-to-list 'auto-mode-alist '("\\.gst\\'" . smalltalk-mode))
-
-
 
 ;; Turn on abbreviations
 (setq-default abbrev-mode t)

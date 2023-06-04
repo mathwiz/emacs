@@ -13,15 +13,27 @@
 
 
 ;; Language specific settings
+(add-to-list 'auto-mode-alist '("\\.cl\\'" . slime-mode))
+(add-to-list 'auto-mode-alist '("\\.gst\\'" . smalltalk-mode))
+
+;; Lisp
+(setq inferior-lisp-program
+"/usr/local/bin/clisp")
+(require 'slime)
+(require 'slime-autoloads)
+;; Also setup the slime-fancy contrib
+(add-to-list 'slime-contribs 'slime-fancy)
+(slime-setup)
+
 
 ;; Octave customizations
-;; (setq auto-mode-alist
-;;       (cons '("\\.m$" . octave-mode) auto-mode-alist))
+(setq auto-mode-alist
+      (cons '("\\.m$" . octave-mode) auto-mode-alist))
       
-;; (add-hook 'octave-mode-hook
-;;           (lambda ()
-;;             (abbrev-mode 1)
-;;             (auto-fill-mode 1)
-;;             (if (eq window-system 'x)
-;;                 (font-lock-mode 1))))
+(add-hook 'octave-mode-hook
+          (lambda ()
+            (abbrev-mode 1)
+            (auto-fill-mode 1)
+            (if (eq window-system 'x)
+                (font-lock-mode 1))))
 
