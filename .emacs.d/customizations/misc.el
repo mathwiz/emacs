@@ -13,7 +13,7 @@
 
 
 ;; Language specific settings
-(add-to-list 'auto-mode-alist '("\\.cl\\'" . slime-mode))
+(add-to-list 'auto-mode-alist '("\\.cl\\'" . lisp-mode))
 (add-to-list 'auto-mode-alist '("\\.gst\\'" . smalltalk-mode))
 
 ;; Lisp
@@ -26,7 +26,7 @@
 (slime-setup)
 
 
-;; Octave customizations
+;; Octave 
 (setq auto-mode-alist
       (cons '("\\.m$" . octave-mode) auto-mode-alist))
       
