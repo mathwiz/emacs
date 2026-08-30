@@ -30,3 +30,6 @@
 ;; Give keybinding
 (global-set-key "\C-c\C-gl" 'lisp-insert-let)
 
+
+;; R
+(setq ess-smart-S-assign-key ";")
